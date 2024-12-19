@@ -1,0 +1,136 @@
+Test Run Started: 2024-12-09 14:42:27.956817
+Delay Between Runs: 2 seconds
+===========================================
+
+Test 1: python --version
+Started: 2024-12-09 14:42:27.956823
+Output:
+Python 3.9.12
+
+Errors:
+
+Completed: 2024-12-09 14:42:28.478307
+
+Test 2: source ~/.bashrc
+Started: 2024-12-09 14:42:30.483488
+Output:
+To unset Anaconda Virtual Env run 'conda deactivate'
+
+Errors:
+
+Completed: 2024-12-09 14:42:30.499997
+
+Test 3: source ~/df-env/bin/activate
+Started: 2024-12-09 14:42:32.505716
+Output:
+
+Errors:
+
+Completed: 2024-12-09 14:42:32.527884
+
+Test 4: export LD_LIBRARY_PATH="/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3:$LD_LIBRARY_PATH"
+Started: 2024-12-09 14:42:34.532148
+Output:
+
+Errors:
+
+Completed: 2024-12-09 14:42:34.544165
+
+Test 5: echo $LD_LIBRARY_PATH
+Started: 2024-12-09 14:42:36.547566
+Output:
+/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3:/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3:/opt/oracle/instantclient_19_8:'
+
+Errors:
+
+Completed: 2024-12-09 14:42:36.556867
+
+Test 6: ls -lt /Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3
+Started: 2024-12-09 14:42:38.562306
+Output:
+total 1503184
+-r-xr-xr-x@ 1 gridharanvidi  staff    3240448 Nov  5 22:57 pkcs11.dylib
+-r-xr-xr-x@ 1 gridharanvidi  staff     129264 Nov  5 22:57 genezi
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.20.1
+-r--r--r--@ 1 gridharanvidi  staff    1483267 Nov  5 22:57 ucp.jar
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.18.1
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.12.1
+-r-xr-xr-x@ 1 gridharanvidi  staff    2663552 Nov  5 22:57 libclntshcore.dylib.20.1
+-r-xr-xr-x@ 1 gridharanvidi  staff    1335376 Nov  5 22:57 fips.dylib
+-r-xr-xr-x@ 1 gridharanvidi  staff        548 Nov  5 22:57 INSTALL_IC_README.txt
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.23.1
+-r-xr-xr-x@ 1 gridharanvidi  staff    3205968 Nov  5 22:57 legacy.dylib
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.11.1
+-r-xr-xr-x@ 1 gridharanvidi  staff    2663552 Nov  5 22:57 libclntshcore.dylib.18.1
+-r-xr-xr-x@ 1 gridharanvidi  staff    2663552 Nov  5 22:57 libclntshcore.dylib.12.1
+-r--r--r--@ 1 gridharanvidi  staff       6506 Nov  5 22:57 BASIC_LICENSE
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.23.1
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.11.1
+-r-xr-xr-x@ 1 gridharanvidi  staff    2663552 Nov  5 22:57 libclntshcore.dylib.23.1
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.20.1
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.18.1
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.12.1
+-r-xr-xr-x@ 1 gridharanvidi  staff    2663552 Nov  5 22:57 libclntshcore.dylib.19.1
+-r-xr-xr-x@ 1 gridharanvidi  staff       1072 Nov  5 22:57 install_ic.sh
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.10.1
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.22.1
+-r--r--r--@ 1 gridharanvidi  staff      32663 Nov  5 22:57 xstreams.jar
+drwxr-xr-x@ 3 gridharanvidi  staff         96 Nov  5 22:57 network
+-r-xr-xr-x@ 1 gridharanvidi  staff    2663552 Nov  5 22:57 libclntshcore.dylib.22.1
+-r-xr-xr-x@ 1 gridharanvidi  staff     235344 Nov  5 22:57 libocijdbc23.dylib
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.19.1
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.21.1
+-r--r--r--@ 1 gridharanvidi  staff        455 Nov  5 22:57 BASIC_README
+-r-xr-xr-x@ 1 gridharanvidi  staff    2663552 Nov  5 22:57 libclntshcore.dylib
+-r--r--r--@ 1 gridharanvidi  staff    7105082 Nov  5 22:57 ojdbc11.jar
+-r--r--r--@ 1 gridharanvidi  staff    6977779 Nov  5 22:57 ojdbc8.jar
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.19.1
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.21.1
+-r-xr-xr-x@ 1 gridharanvidi  staff    5577424 Nov  5 22:57 libnnz.dylib
+-r-xr-xr-x@ 1 gridharanvidi  staff     197728 Nov  5 22:57 uidrvci
+-r-xr-xr-x@ 1 gridharanvidi  staff    2663552 Nov  5 22:57 libclntshcore.dylib.21.1
+-r-xr-xr-x@ 1 gridharanvidi  staff     112000 Nov  5 22:57 adrci
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib.10.1
+-r-xr-xr-x@ 1 gridharanvidi  staff   51248032 Nov  5 22:57 libclntsh.dylib.22.1
+-r-xr-xr-x@ 1 gridharanvidi  staff     793232 Nov  5 22:57 libocci.dylib
+-r-xr-xr-x@ 1 gridharanvidi  staff  198179664 Nov  5 22:57 libociei.dylib
+
+Errors:
+
+Completed: 2024-12-09 14:42:38.578332
+
+Test 7: python send_test_mail.py "ORDER file order_ack1.pdf" test_pdf_files/order_ack1.pdf test1@test.com
+Started: 2024-12-09 14:42:40.583532
+Output:
+
+Errors:
+INFO-db_functions.py-connect_to_oracle:53 - Database URL: trniusuxt053.torani.com user: cft
+ERROR-db_functions.py-connect_to_oracle:90 -  *** Databaes connection - Exception: DPI-1047: Cannot locate a 64-bit Oracle Client library: "dlopen(/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib, 0x0001): tried: '/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (no such file), '/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+ERROR-db_functions.py-connect_to_oracle:91 - Exiting...
+
+Completed: 2024-12-09 14:42:40.933310
+
+Test 8: python send_test_mail.py "ORDER file order_ack2.pdf" test_pdf_files/order_ack2.pdf test2@test.com
+Started: 2024-12-09 14:42:42.938118
+Output:
+
+Errors:
+INFO-db_functions.py-connect_to_oracle:53 - Database URL: trniusuxt053.torani.com user: cft
+ERROR-db_functions.py-connect_to_oracle:90 -  *** Databaes connection - Exception: DPI-1047: Cannot locate a 64-bit Oracle Client library: "dlopen(/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib, 0x0001): tried: '/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (no such file), '/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+ERROR-db_functions.py-connect_to_oracle:91 - Exiting...
+
+Completed: 2024-12-09 14:42:43.184282
+
+Test 9: python send_test_mail.py "ORDER file order_ack3.pdf" test_pdf_files/order_ack3.pdf test3@test.com
+Started: 2024-12-09 14:42:45.189401
+Output:
+
+Errors:
+INFO-db_functions.py-connect_to_oracle:53 - Database URL: trniusuxt053.torani.com user: cft
+ERROR-db_functions.py-connect_to_oracle:90 -  *** Databaes connection - Exception: DPI-1047: Cannot locate a 64-bit Oracle Client library: "dlopen(/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib, 0x0001): tried: '/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (no such file), '/Users/gridharanvidi/oracle_client/instaclient-basic-macos-arm64-23.3/libclntsh.dylib' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+ERROR-db_functions.py-connect_to_oracle:91 - Exiting...
+
+Completed: 2024-12-09 14:42:45.418517
+
+All tests completed.
