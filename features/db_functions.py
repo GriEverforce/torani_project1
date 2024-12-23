@@ -130,15 +130,18 @@ def get_column_name(column_names, doc_type):
 def check_and_convert_date(date_str):
     # Define possible input formats
     input_formats = [
-        "%d-%b-%y",  # '29-AUG-24'
-        "%d-%m-%y",  # '29-08-24'
-        "%m-%d-%y",  # '08-29-24'
-        "%Y-%m-%d",  # '2024-08-29'
+        "%d-%b-%Y",  # '12-Oct-2024'
+        "%d-%b-%y",  # '12-Oct-24'
+        "%d-%m-%Y",  # '12-10-2024'
+        "%d-%m-%y",  # '12-10-24'
         "%m-%d-%Y",  # '10-12-2024'
+        "%m-%d-%y",  # '10-12-24'
+        "%Y-%m-%d",  # '2024-10-12'
+        "%y-%m-%d",  # '24-10-12'
         # Add more formats as needed
     ]
     
-    output_format = "%m-%d-%y"  # Desired output format ('MM-DD-YY')
+    output_format = "%m-%d-%Y"  # Desired output format ('MM-DD-YYYY')
     
     for fmt in input_formats:
         try:
